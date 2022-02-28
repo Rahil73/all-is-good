@@ -1,0 +1,13 @@
+a=10
+def parent():
+  a=5
+  def confusion():
+    return a
+  return confusion()
+a=parent()
+print(a)
+print(confusion())
+print(parent())
+  
+  
+  
